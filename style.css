@@ -1,0 +1,64 @@
+body {
+    background: #F6F6F6;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.mini-title {
+    letter-spacing: 1.6px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 68px;
+}
+
+.btn-dark {
+    background: #333;
+    padding: 21px 38px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.card {
+    box-shadow: 0 14px 10px -10px rgba(43, 16, 16, 0.25);
+}
+
+.case {
+    margin: 161px 50px;
+}
+
+.card-body a {
+    font-size: 14px;
+    color: #333;
+}
+
+.card-title {
+    color: #FF4910;
+    font-weight: 600;
+    margin: 10px 0 18px 0;
+}
+
+.card-text {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.explore {
+    margin: 161px 0px 50px 0px;
+    background: #f1f3f6;
+    padding: 44px;
+}
+
+ul {
+    list-style: none;
+}
+
+.socmed img {
+    height: 32px;
+    width: 32px;
+}
