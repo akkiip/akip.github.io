@@ -14,70 +14,142 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <title>Irsyad Al Ghifary</title>
+  <link rel="icon" href="assets/kotak.svg" type="image/icon type">
 </head>
 
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/kotak.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto text-uppercase">
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Case Studies</a>
+          <a class="nav-link" href="#">Exploration</a>
+          <a class="nav-link" href="#">About Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
   <!-- Header -->
   <div class="container mt-5">
     <div class="row justify-content-center">
-      <div class="col-6">
+      <div class="col text-center col-lg-6 text-lg-start">
         <p class="mini-title text-uppercase">Portfolio Web of</p>
         <h1 class="fw-bold">Irsyad Al Ghifary</h1>
         <p class="fs-5 mt-2">UI/UX Designer, Front-End Web Developer</p>
-        <a href="#" class="btn btn-dark text-uppercase fw-bold mt-2">Contact Me</a>
+        <a href="#" class="btn btn-dark text-uppercase fw-bold my-4">Contact Me</a>
         <br>
         <div class="socmed mt-4">
           <img src="assets/github.svg" alt="">
-          <img src="assets/dribbble.svg" alt="" class="mx-2">
-          <img src="assets/youtube.svg" alt="" class="mr-2">
+          <img src="assets/dribbble.svg" alt="" class="mx-4">
+          <img src="assets/youtube.svg" alt="" class="mr-4">
         </div>
       </div>
-      <div class="col-4 text-center">
+      <div class="col col-lg-4 text-center d-none d-md-block">
         <img src="assets/circle.jpg" alt="" class="rounded-circle" width="249" height="249">
       </div>
     </div>
   </div>
   <!-- Akhir Header -->
 
-  <!-- Case Studies -->
+  <!-- Projects -->
   <section class="case">
-    <div class="container mt-5">
-      <h2 class="fw-bold" style="margin-bottom: 50px; font-size: 40px;">Case Studies</h2>
+    <div class="container mt-3">
+      <h2 class="fw-bold text-center text-md-start" style="margin-bottom: 50px; font-size: 40px;">Projects</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100 rounded-top">
+          <div class=" card h-auto rounded-top">
             <img src="assets/p1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Case #1 - Food Waste in<br>Indonesia</h5>
               <p class="card-text">Food Waste atau buang buang makanan adalah
                 pemborosan makana siap saji dan konsumsi
                 dengan membuang makanan tersebut atas alasan
-                kekenyangan atau tidak suka dengan makananya.</p>
-              <a href="#" class="btn btn-outline-dark"> See More</a>
+                kekenyangan atau tidak suka dengan makananya.
+              </p>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
+        <div class="col rounded-top">
+          <div class="card h-auto rounded-top">
             <img src="assets/p2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Case #2 - Sulit Fokus dengan<br>Pekerjaan</h5>
               <p class="card-text">Masa Pandemi seperti ini banyak mengubah
                 kegiatan dan segala aktivitas di hidup kita.
-                Semuanya sekarang serba diatur oleh diri sendiri</p>
-              <a href="#" class="btn btn-outline-dark"> See More</a>
+                Semuanya sekarang serba diatur oleh diri sendiri
+              </p>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
+        <div class="col rounded-top">
+          <div class="card h-auto rounded-top">
             <img src="assets/p3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Case #3 - Online Course Khusus<br>Orang IT</h5>
               <p class="card-text">Orang IT atau biasa disebut tukang benerin segala
                 macam benda benda ini sekarang sedang trend.
                 Mulai banyak yang belajar ilmu di bidang IT.</p>
-              <a href="#" class="btn btn-outline-dark"> See More</a>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Projects -->
+
+  <!-- Case Studies -->
+  <section class="case">
+    <div class="container mt-3">
+      <h2 class="fw-bold text-center text-md-start" style="margin-bottom: 50px; font-size: 40px;">Case Studies</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class=" card h-auto rounded-top">
+            <img src="assets/p1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Case #1 - Food Waste in<br>Indonesia</h5>
+              <p class="card-text">Food Waste atau buang buang makanan adalah
+                pemborosan makana siap saji dan konsumsi
+                dengan membuang makanan tersebut atas alasan
+                kekenyangan atau tidak suka dengan makananya.
+              </p>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col rounded-top">
+          <div class="card h-auto rounded-top">
+            <img src="assets/p2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Case #2 - Sulit Fokus dengan<br>Pekerjaan</h5>
+              <p class="card-text">Masa Pandemi seperti ini banyak mengubah
+                kegiatan dan segala aktivitas di hidup kita.
+                Semuanya sekarang serba diatur oleh diri sendiri
+              </p>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col rounded-top">
+          <div class="card h-auto rounded-top">
+            <img src="assets/p3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Case #3 - Online Course Khusus<br>Orang IT</h5>
+              <p class="card-text">Orang IT atau biasa disebut tukang benerin segala
+                macam benda benda ini sekarang sedang trend.
+                Mulai banyak yang belajar ilmu di bidang IT.</p>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
             </div>
           </div>
         </div>
@@ -89,10 +161,10 @@
   <!-- Exploration -->
   <section class="explore">
     <div class="container exp">
-      <h2 class="fw-bold" style="margin-bottom: 50px; font-size: 40px;">Exploration</h2>
+      <h2 class="fw-bold text-center text-md-start" style="margin-bottom: 50px; font-size: 40px;">Exploration</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100 rounded-top">
+          <div class=" card h-auto rounded-top">
             <img src="assets/p1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Case #1 - Food Waste in<br>Indonesia</h5>
@@ -100,31 +172,31 @@
                 pemborosan makana siap saji dan konsumsi
                 dengan membuang makanan tersebut atas alasan
                 kekenyangan atau tidak suka dengan makananya.</p>
-              <a href="#" class="btn btn-outline-dark"> See More</a>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class=" card h-auto rounded-top">
             <img src="assets/p2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Case #2 - Sulit Fokus dengan<br>Pekerjaan</h5>
               <p class="card-text">Masa Pandemi seperti ini banyak mengubah
                 kegiatan dan segala aktivitas di hidup kita.
                 Semuanya sekarang serba diatur oleh diri sendiri</p>
-              <a href="#" class="btn btn-outline-dark"> See More</a>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class=" card h-auto rounded-top">
             <img src="assets/p3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Case #3 - Online Course Khusus<br>Orang IT</h5>
               <p class="card-text">Orang IT atau biasa disebut tukang benerin segala
                 macam benda benda ini sekarang sedang trend.
                 Mulai banyak yang belajar ilmu di bidang IT.</p>
-              <a href="#" class="btn btn-outline-dark"> See More</a>
+              <a href="#" class="btn btn-outline-dark d-block d-md-inline-block my-2">See More</a>
             </div>
           </div>
         </div>
